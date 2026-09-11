@@ -266,3 +266,4 @@ $$;
 
 GRANT EXECUTE ON FUNCTION public.valider_vente(text, date, text, text, bigint, jsonb, jsonb)
 TO anon, authenticated;
+
