@@ -128,3 +128,4 @@ BEGIN
  RETURN r;
 END; $$;
 GRANT EXECUTE ON FUNCTION public.executer_operation_offline(text,text,jsonb) TO anon, authenticated;
+
