@@ -169,3 +169,4 @@ DECLARE t uuid:=current_tenant_id(); BEGIN
  RETURN jsonb_build_object('success',true);
 END; $$;
 GRANT EXECUTE ON FUNCTION public.enregistrer_paiement_credit(bigint,numeric,text,text,text) TO anon, authenticated;
+
