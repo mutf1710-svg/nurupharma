@@ -147,3 +147,4 @@ END;
 $$;
 
 GRANT EXECUTE ON FUNCTION valider_vente(text,date,text,text,bigint,jsonb) TO anon, authenticated;
+
