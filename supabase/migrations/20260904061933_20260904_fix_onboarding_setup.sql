@@ -59,3 +59,4 @@ END;
 $$;
 
 GRANT EXECUTE ON FUNCTION setup_tenant(text, text) TO anon, authenticated;
+
