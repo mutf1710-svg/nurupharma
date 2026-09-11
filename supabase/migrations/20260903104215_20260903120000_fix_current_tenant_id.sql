@@ -9,3 +9,4 @@ SET search_path = public
 AS $$
   SELECT NULLIF(current_setting('request.headers', true)::json->>'x-tenant-id', '')::uuid;
 $$;
+
