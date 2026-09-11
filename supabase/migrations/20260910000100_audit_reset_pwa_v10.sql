@@ -29,3 +29,4 @@ BEGIN
   );
 END; $$;
 GRANT EXECUTE ON FUNCTION public.reinitialiser_historique_systeme() TO anon, authenticated;
+
