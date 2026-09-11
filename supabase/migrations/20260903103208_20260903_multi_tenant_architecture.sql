@@ -293,3 +293,4 @@ GRANT EXECUTE ON FUNCTION authenticate_user(text, uuid) TO anon, authenticated;
 -- 12. Grant necessary privileges on tenants table
 GRANT SELECT, INSERT, UPDATE, DELETE ON tenants TO anon, authenticated;
 GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO anon, authenticated;
+
